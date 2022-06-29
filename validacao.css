@@ -1,0 +1,46 @@
+:root{
+    --cor-titulo: #FFD712;
+    --cor-texto: #07E5FF;
+    --cor-de-fundo: #030D22;
+    --cor-de-link: #FD21CE;
+    --cor-de-fundo-2: #04112E;
+    --cor-descricao: #FF2566;
+    --cor-de-link2: #E37933;
+    --cor-placeholder: #3E8EFD;
+    --cor-erro: #ff0000;
+}
+
+.formcontato__input:invalid, .formcontato__textarea:invalid {
+    border-color: var(--cor-erro); 
+}
+
+.formcontato__input:valid, .formcontato__textarea:valid {
+    border-color:var(--cor-titulo);
+}
+
+span {
+    position: relative;
+}
+
+.formcontato__input:invalid + span::before, .formcontato__textarea:invalid + span::before {
+    content: '✖';
+    color:var(--cor-erro);
+}
+
+.formcontato__input:valid + span::before, .formcontato__textarea:valid + span::before {
+    content: '✓';
+    color:var(--cor-titulo);
+}
+
+.formcontato__input + span::before {
+    position: absolute;
+    right: -400px;
+    top: -40px;
+}
+
+.formcontato__textarea + span::before {
+    position: absolute;
+    right: -400px;
+    top: -250px;
+}
+ 

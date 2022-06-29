@@ -1,0 +1,323 @@
+.box {
+    position: relative;
+    width: 378px;
+    height: 378px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #030D22;
+    border-radius: 50%;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+    animation: animate 4s linear infinite;
+    border-radius: 50%;
+}
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #030D22;
+    border-radius: 50%;
+
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(368deg);
+    }
+}
+.box img {
+    position: relative;
+    z-index: 10;
+
+}
+
+.skills__box::before, .hobbies__box::before{
+    
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+    animation: animate 4s linear infinite;
+    border-radius: 50%;
+}
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #030D22;
+    border-radius: 50%;
+
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(368deg);
+    }
+}
+
+@media screen and (min-width: 375px){
+
+    .box {
+        position: relative;
+        width: 108px;
+        height: 108px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #030D22;
+        border-radius: 50%;
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(368deg);
+        }
+    }
+    .box img {
+        position: relative;
+        z-index: 10;
+    
+    }
+    
+    .skills__box::before, .hobbies__box::before{
+        
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(108deg);
+        }
+    }
+    
+
+
+}
+
+@media screen and (min-width: 768px){
+    .box {
+        position: relative;
+        width: 156px;
+        height: 156px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #030D22;
+        border-radius: 50%;
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 156px;
+        height: 156px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(156deg);
+        }
+    }
+    .box img {
+        position: relative;
+        z-index: 10;
+    
+    }
+    
+    .skills__box::before, .hobbies__box::before{
+        
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 156px;
+        height: 156px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(156deg);
+        }
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px){
+    .box {
+        position: relative;
+        width: 378px;
+        height: 378px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #030D22;
+        border-radius: 50%;
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 378px;
+        height: 378px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(368deg);
+        }
+    }
+    .box img {
+        position: relative;
+        z-index: 10;
+    
+    }
+    
+    .skills__box::before, .hobbies__box::before{
+        
+    }
+    
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 378px;
+        height: 378px;
+        background: linear-gradient(#07E5FF,#030D22,#030D22,#FD21CE);
+        animation: animate 4s linear infinite;
+        border-radius: 50%;
+    }
+    .box::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        background: #030D22;
+        border-radius: 50%;
+    
+    }
+    
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(368deg);
+        }
+    }
+}

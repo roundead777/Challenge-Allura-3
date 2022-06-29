@@ -1,0 +1,438 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    --cor-titulo: #FFD712;
+    --cor-texto: #07E5FF;
+    --cor-de-fundo: #030D22;
+    --cor-de-link: #FD21CE;
+    --cor-de-fundo-2: #04112E;
+    --cor-descricao: #FF2566;
+    --cor-de-link2: #E37933;
+    --cor-placeholder: #3E8EFD;
+    --cor-erro: #ff0000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: var(--cor-texto);
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+a:hover{
+    color:var(--cor-descricao);
+}
+
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0px 150px;
+}
+
+.menu__title, .title__subsection {
+    color: var(--cor-titulo);
+}
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+nav ul.menu__list{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    font-size: 16px;
+}
+
+.menu__mobile__list {
+    display: none;
+}
+
+header img {
+    margin-right: 16px;
+    width: 32px;
+}
+/*Sessão Title*/
+
+section.title{
+    margin: 32px 0px;
+}
+.title__div {
+    margin: 0px 153px;
+}
+div.title__container h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+div.title__div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.title__profile {
+   width: 368px;
+}
+
+.title__subsection {
+    width: 600px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 16px;
+    width: 500px;
+
+}
+
+/*Sessão About*/
+
+section.about{
+    padding: 62px 164px;
+    background-color:var(--cor-de-fundo-2);
+}
+
+.about__title {
+    color: var(--cor-titulo);
+    font-size: 32px;
+}
+.about__container {
+    width: 800px;
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.section__title {
+    color: var(--cor-titulo);
+    font-size: 22px;
+    text-align: center;
+}
+
+section.skills {
+    padding: 64px 100px;
+
+}
+
+.skills__line, .hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.skills__box, .hobbies__box {
+    background-color:var(--cor-de-fundo-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    margin: 23px 15px 23px 8px;
+    width: 135px;
+    height: 135px;
+    border-radius: 20%;
+
+}
+
+.hobbies__box {
+    background-color: var(--cor-de-fundo);
+}
+
+.skills__box ul, .hobbies__box ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    background-color: var(--cor-de-fundo-2);
+    padding: 64px 100px;
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+    padding: 64px 0;
+    background-color: var(--cor-de-fundo);
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.academic__courses__box{
+    background-color: var(--cor-de-fundo-2);
+    width: 26.5rem;
+    margin: 0 1rem;
+    border-radius: 10%;
+    margin-bottom: 10px;
+ 
+}
+
+.academic__courses__item__img {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor-de-fundo);
+}
+
+.alura-logo {
+    margin-left: 70px;
+    width: 210px;
+    height: 130px;
+}
+.academic__courses ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.academic__courses ul li {
+    margin: 32px;
+    padding: 0;
+}
+
+.academic__courses__item__subtitle {
+    color: var(--cor-descricao);
+}
+
+/* experiência*/
+section.experience{
+    padding: 64px 0;
+    background-color: var(--cor-de-fundo-2);
+}
+
+.experiencie__box {
+    padding: 62px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box-fc {
+    background-color: var(--cor-de-fundo);
+    flex-direction: row-reverse;
+}
+#box-ps {
+    background-color: var(--cor-de-fundo-2);
+}
+#decodificaor {
+    background-color: var(--cor-de-fundo-2);
+}
+
+.experience__img {
+    border-radius: 35px;
+    padding: 10px;
+    width: 542px;
+}
+
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25em;
+
+}
+
+.xp-title {
+    font-size: 22px;
+    margin: 8px 0;
+}
+.experience__text {
+    color: var(--cor-descricao);
+    margin: 12px 0;
+    font-weight: 400;
+    font-size: 14px;
+ 
+}
+
+.experiencia__botao--repo {
+    color: var(--cor-de-fundo);
+    width: 90px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    margin-right: 1em;
+    border-radius: 5px;
+    background-color: var(--cor-titulo);
+    transition: all 1s;
+    padding: auto;
+    text-align: center;
+}
+
+.experiencia__botao--repo:hover {
+    color: var(--cor-de-fundo-2);
+    cursor: pointer;
+    background-color: var(--cor-de-link2);
+}
+
+.experiencia__botao--demo {
+    color: var(--cor-de-fundo);
+    width: 90px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--cor-de-link);
+    transition: all 1s;
+}
+
+.experiencia__botao--demo:hover {
+    cursor: pointer;
+    background-color: var(--cor-descricao);
+}
+
+#btn-demo, #btn-repo{
+    width: 200px;
+}
+
+.digital__art__img {
+    border-radius: 15px;
+    width: 40%;
+}
+
+/*Contato*/
+
+section.formcontato{
+    padding: 64px;
+}
+
+.formcontato__contacto {
+    padding: 0 64px;
+    display: flex;
+}
+
+.formcontato__img {
+    border-radius: 17px;
+}
+
+.formcontato__title {
+    margin-top: 0;
+    color:var(--cor-titulo);
+}
+.formcontato__text{ 
+    padding: 0px 20px;
+}
+
+.formcontato__subtext{
+    margin-bottom: 18px;
+}
+
+.formcontato__input {
+    width: 400px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: var(--cor-de-fundo-2);
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--cor-texto);
+    font-size: 20px;
+}
+
+.formcontato__textarea {
+    width: 400px;
+    height: 240px;
+    display: flex;
+    background-color: var(--cor-de-fundo-2);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: var(--cor-texto);
+    font-size: 20px;
+}
+
+.formcontato__input::placeholder, .formcontato__textarea::placeholder {
+    color:var(--cor-placeholder);
+    font-size: 16px;
+    text-align: start;
+    padding: 0;
+
+}
+
+.formcontato__botao {
+    width: 200px;
+    height: 35px;
+    color: var(--cor-de-fundo);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--cor-de-link);
+    transition: all 1s;
+    margin-top: 12px;
+}
+
+.formcontato__botao:hover {
+    cursor: pointer;
+    background-color: var(--cor-descricao);
+}
+
+.formcontato__input:invalid {
+    border-color: red;
+}
+
+#mensagem-erro {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-erro);
+}
+
+#mensagem-sucesso {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-titulo);
+}
+/*footeer*/
+
+section.footer{
+   margin: 0 0 0 0;
+   padding: 64px 0;
+   background-color: var(--cor-de-fundo-2);
+}
+
+.footer {
+    font-size: 20px;
+    color: var(--cor-titulo);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
